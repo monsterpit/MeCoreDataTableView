@@ -18,6 +18,8 @@
 		2C16A0DC22B8216F002D822F /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A0DB22B8216F002D822F /* CoreDataStack.swift */; };
 		2C16A0E322B824DD002D822F /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A0E122B824DD002D822F /* Photo+CoreDataClass.swift */; };
 		2C16A0E422B824DD002D822F /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A0E222B824DD002D822F /* Photo+CoreDataProperties.swift */; };
+		2C16A0E622B82E93002D822F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A0E522B82E93002D822F /* TableViewCell.swift */; };
+		2C16A0E822B8310B002D822F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C16A0E722B8310B002D822F /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2C16A0DB22B8216F002D822F /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		2C16A0E122B824DD002D822F /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2C16A0E222B824DD002D822F /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2C16A0E522B82E93002D822F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2C16A0E722B8310B002D822F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				2C16A0C422B80B6E002D822F /* ViewController.swift */,
 				2C16A0D422B80D26002D822F /* APIService.swift */,
 				2C16A0C622B80B6E002D822F /* Main.storyboard */,
+				2C16A0E522B82E93002D822F /* TableViewCell.swift */,
+				2C16A0E722B8310B002D822F /* Extension.swift */,
 				2C16A0C922B80B70002D822F /* Assets.xcassets */,
 				2C16A0CB22B80B70002D822F /* LaunchScreen.storyboard */,
 				2C16A0CE22B80B70002D822F /* Info.plist */,
@@ -156,7 +162,9 @@
 				2C16A0C522B80B6E002D822F /* ViewController.swift in Sources */,
 				2C16A0E322B824DD002D822F /* Photo+CoreDataClass.swift in Sources */,
 				2C16A0D522B80D26002D822F /* APIService.swift in Sources */,
+				2C16A0E622B82E93002D822F /* TableViewCell.swift in Sources */,
 				2C16A0DA22B8214C002D822F /* Model.xcdatamodeld in Sources */,
+				2C16A0E822B8310B002D822F /* Extension.swift in Sources */,
 				2C16A0DC22B8216F002D822F /* CoreDataStack.swift in Sources */,
 				2C16A0D722B81532002D822F /* Flickr.swift in Sources */,
 				2C16A0E422B824DD002D822F /* Photo+CoreDataProperties.swift in Sources */,
