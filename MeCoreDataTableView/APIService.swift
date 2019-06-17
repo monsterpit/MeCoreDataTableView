@@ -65,14 +65,14 @@ class APIService{
             guard let data = data else{ return}
             
             do{
-            let json = try JSONDecoder().decode(Flickr.self, from: data)
-                
-                completion(.Success(json.items))
-                
+                let json = try JSONDecoder().decode(Flickr.self, from: data)
+                DispatchQueue.main.async {
+                    completion(.Success(json.items))
+                }
                 //Result<[String]>
                 //completion(.Success(json.items.map{$0.title}))
                 
-            
+                
             }
             catch let error{
                 completion(.Error(error.localizedDescription))
